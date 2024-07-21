@@ -5,12 +5,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>D&I</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
   <!-- 
 	//////////////////////////////////////////////////////
@@ -74,18 +71,14 @@
 		<div class="container">
 			<div class="row">
 			
-				<div class="col-xs-8 text-right menu-1">
+				<div class="col-xs-12git  text-center menu-1">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html"></a></li>
-						<li class="has-dropdown">
+						<li>
 							<a href="#fh5co-couple-story">Story</a>
 							
 						</li>
-						<li class="has-dropdown">
-							<a href="galle"></a>
-						</li>
-						<li><a href="#fh5co-event">Events</a></li>
+							<li><a href="#fh5co-event">Events</a></li>
 					</ul>
 				</div>
 			</div>
@@ -93,7 +86,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/bg-2.JPG);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/bg-2.JPG)" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -103,7 +96,7 @@
 							<h1>Devanand <i class="fa fa-heart" style="font-size:50px;color:#e31b23"></i>
 								Iswarya</h1>
 							<h2 style="font-weight: bold;color:#e31b23">We are gonna be the new couple in the town</h2>
-							<img src="images\couple.png" style="width:150px" class="bgImg">
+							<img src="images\lover.png" style="width:150px;margin-top: 30px;" class="bgImg">
 							<div class="simply-countdown simply-countdown-one"></div>
 						</div>
 					</div>
@@ -148,7 +141,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/bride1.jpg" alt="bride" class="img-responsive">
+						<img src="images/bride.jpg" alt="bride" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3 style="color:#e31b23;font-size:40px">Iswarya</h3>
@@ -440,7 +433,7 @@
 										<span> Thursday 05</span>
 										<span>September, 2024</span>
 									</div>
-									<button class="btn"><a style=" color: inherit;" href="https://www.google.com/maps/place/Bell+mahal/@9.9958908,77.4179486,17z/data=!3m1!4b1!4m6!3m5!1s0x3b071389c0ef98d1:0xc92b0593f2f4cbb5!8m2!3d9.9958908!4d77.4205235!16s%2Fg%2F11l8gf_q9x?entry=ttu"><i class="fa-solid fa-location-dot" style="color: #e31b23;"></i>&nbsp;&nbsp;Location </a></button>
+									<button class="btn" onclick="myfun()"><a style=" color: inherit;" href="https://www.google.com/maps/place/Bell+mahal/@9.9958908,77.4179486,17z/data=!3m1!4b1!4m6!3m5!1s0x3b071389c0ef98d1:0xc92b0593f2f4cbb5!8m2!3d9.9958908!4d77.4205235!16s%2Fg%2F11l8gf_q9x?entry=ttu"><i class="fa-solid fa-location-dot" style="color: #e31b23;"></i>&nbsp;&nbsp;Location </a></button>
 
 								</div>
 							</div>
@@ -553,6 +546,10 @@
         day: d.getDate(),
         enableUtc: false
     });
+	function myfun()
+	{
+		alert("hello");
+	}
 </script>
 
 	</body>

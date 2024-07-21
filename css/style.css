@@ -41,13 +41,41 @@ body {
     margin-top:0px !important;
   
   }
-  .bgImg
-  {
-    margin-left: -167px !important;
 
-  } 
 }
-.cardone
+
+
+/* Media query for screens up to 320px wide */
+@media (max-width: 320px) {
+  .bgImg {
+    margin-left: -167px !important;
+    /* Add other CSS rules as needed */
+  }
+}
+
+/* Media query for screens up to 375px wide */
+@media (max-width: 375px) {
+  .bgImg {
+    margin-left: -220px !important;
+    /* Add other CSS rules as needed */
+  }
+}
+
+/* Media query for screens up to 425px wide */
+
+@media (max-width:766px) and (min-width: 425px) {
+  .bgImg {
+    margin-left:-250px !important;
+    /* Add other CSS rules as needed */
+  }
+
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .bgImg {
+    margin-left: -163px !important; /* Test margin change */
+  }
+}
+  .cardone
 {
   margin-top:-243px
 }
@@ -57,7 +85,6 @@ body {
 
 }
   .btn {
-    cursor: pointer;
     border: 3px solid #e31b23;
     background-color: transparent;
     height: 50px;
@@ -390,7 +417,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 100vh;
+  height: 100%;
   color: white;
   display: flex;
   align-items: center;
