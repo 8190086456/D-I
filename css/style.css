@@ -29,7 +29,7 @@ body {
     margin-top:0px !important;
   
   }
-  
+
 }
 @media (max-width: 600px) {
  .cardone
@@ -41,6 +41,11 @@ body {
     margin-top:0px !important;
   
   }
+  .bgImg
+  {
+    margin-left: -167px !important;
+
+  } 
 }
 .cardone
 {
